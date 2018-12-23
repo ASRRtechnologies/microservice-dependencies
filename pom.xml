@@ -153,12 +153,12 @@
 
     <distributionManagement>
         <repository>
-            <id>nexus</id>
+            <id>nexus-release</id>
             <name>Release</name>
             <url>http://dev.asrr.nl:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
-            <id>nexus</id>
+            <id>nexus-snapshot</id>
             <name>Snapshot</name>
             <url>http://dev.asrr.nl:8081/repository/maven-snapshots</url>
         </snapshotRepository>
