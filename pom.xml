@@ -24,6 +24,7 @@
 
         <spring-boot.version>2.1.0.RELEASE</spring-boot.version>
         <spring-cloud.version>Greenwich.M3</spring-cloud.version>
+        <asrr-microservice.version>${project.version}</asrr-microservice.version>
 
         <lombok.version>1.18.4</lombok.version>
         <lombok.compiler.version>1.18.4.0</lombok.compiler.version>
