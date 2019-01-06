@@ -83,25 +83,6 @@
         </dependencies>
     </dependencyManagement>
 
-    <repositories>
-        <!-- repository for spring cloud -->
-        <repository>
-            <id>repository.spring.milestone</id>
-            <name>Spring Milestone Repository</name>
-            <url>http://repo.spring.io/milestone</url>
-        </repository>
-        <repository>
-            <id>nexus-release</id>
-            <name>Release</name>
-            <url>http://dev.asrr.nl:8081/repository/maven-releases/</url>
-        </repository>
-        <repository>
-            <id>nexus-snapshot</id>
-            <name>Snapshot</name>
-            <url>http://dev.asrr.nl:8081/repository/maven-snapshots</url>
-        </repository>
-    </repositories>
-
     <build>
         <pluginManagement>
             <plugins>
@@ -161,6 +142,25 @@
             </plugin>
         </plugins>
     </build>
+
+    <repositories>
+        <!-- repository for spring cloud -->
+        <repository>
+            <id>repository.spring.milestone</id>
+            <name>Spring Milestone Repository</name>
+            <url>http://repo.spring.io/milestone</url>
+        </repository>
+        <repository>
+            <id>nexus-release</id>
+            <name>Release</name>
+            <url>http://dev.asrr.nl:8081/repository/maven-releases/</url>
+        </repository>
+        <repository>
+            <id>nexus-snapshot</id>
+            <name>Snapshot</name>
+            <url>http://dev.asrr.nl:8081/repository/maven-snapshots</url>
+        </repository>
+    </repositories>
 
     <distributionManagement>
         <repository>
