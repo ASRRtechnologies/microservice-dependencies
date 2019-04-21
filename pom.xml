@@ -105,6 +105,12 @@
                 <artifactId>mapstruct-jdk8</artifactId>
                 <version>${mapstruct.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>de.invesdwin</groupId>
+                <artifactId>invesdwin-instrument</artifactId>
+                <version>1.0.2</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -172,6 +178,12 @@
             <id>repository.spring.milestone</id>
             <name>Spring Milestone Repository</name>
             <url>http://repo.spring.io/milestone</url>
+        </repository>
+
+        <repository>
+            <id>instrumentation-agent</id>
+            <name>Instrumentation Agent</name>
+            <url>http://invesdwin.de/artifactory/invesdwin-oss-remote</url>
         </repository>
 
         <repository>
