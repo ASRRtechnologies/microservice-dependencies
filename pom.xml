@@ -6,7 +6,7 @@
 
     <groupId>nl.asrr.microservice</groupId>
     <artifactId>microservice-dependencies</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
     <packaging>pom</packaging>
 
     <name>Microservice Dependencies</name>
