@@ -6,7 +6,7 @@
 
     <groupId>nl.asrr.microservice</groupId>
     <artifactId>microservice-dependencies</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <packaging>pom</packaging>
 
     <name>Microservice Dependencies</name>
@@ -69,7 +69,7 @@
             <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
-                <version>27.0-jre</version>
+                <version>27.1-jre</version>
             </dependency>
 
             <!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger2 -->
