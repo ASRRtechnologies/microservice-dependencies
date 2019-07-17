@@ -6,7 +6,7 @@
 
     <groupId>nl.asrr.microservice</groupId>
     <artifactId>microservice-dependencies</artifactId>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <packaging>pom</packaging>
 
     <name>Microservice Dependencies</name>
@@ -26,7 +26,7 @@
 
         <lombok.version>1.18.6</lombok.version>
         <lombok.maven.version>1.18.6.0</lombok.maven.version>
-        <mapstruct.version>1.2.0.Final</mapstruct.version>
+        <mapstruct.version>1.3.0.Final</mapstruct.version>
         <swagger.version>2.9.2</swagger.version>
     </properties>
 
@@ -119,11 +119,11 @@
                 <version>${lombok.version}</version>
             </dependency>
 
-            <!-- https://mvnrepository.com/artifact/org.mapstruct/mapstruct-jdk8 -->
+            <!-- https://mvnrepository.com/artifact/org.mapstruct/mapstruct -->
             <dependency>
                 <groupId>org.mapstruct</groupId>
-                <artifactId>mapstruct-jdk8</artifactId>
-                <version>${mapstruct.version}</version>
+                <artifactId>mapstruct</artifactId>
+                <version>1.3.0.Final</version>
             </dependency>
 
             <dependency>
