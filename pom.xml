@@ -196,6 +196,12 @@
     </build>
 
     <repositories>
+        <repository>
+            <id>central</id>
+            <name>Central Repository</name>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+
         <!-- repository for spring cloud -->
         <repository>
             <id>repository.spring.milestone</id>
@@ -212,12 +218,12 @@
         <repository>
             <id>nexus-release</id>
             <name>Release</name>
-            <url>http://nexus.asrr.nl:8081/repository/maven-releases/</url>
+            <url>http://nexus.asrr-tech.com:8081/repository/maven-releases/</url>
         </repository>
         <repository>
             <id>nexus-snapshot</id>
             <name>Snapshot</name>
-            <url>http://nexus.asrr.nl:8081/repository/maven-snapshots</url>
+            <url>http://nexus.asrr-tech.com:8081/repository/maven-snapshots</url>
         </repository>
     </repositories>
 
@@ -225,12 +231,12 @@
         <repository>
             <id>nexus-release</id>
             <name>Release</name>
-            <url>http://nexus.asrr.nl:8081/repository/maven-releases/</url>
+            <url>http://nexus.asrr-tech.com:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>nexus-snapshot</id>
             <name>Snapshot</name>
-            <url>http://nexus.asrr.nl:8081/repository/maven-snapshots</url>
+            <url>http://nexus.asrr-tech.com:8081/repository/maven-snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 
