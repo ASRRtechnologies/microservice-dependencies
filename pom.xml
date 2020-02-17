@@ -6,7 +6,7 @@
 
     <groupId>nl.asrr.microservice</groupId>
     <artifactId>microservice-dependencies</artifactId>
-    <version>1.0.5</version>
+    <version>1.0.6</version>
     <packaging>pom</packaging>
 
     <name>Microservice Dependencies</name>
@@ -189,6 +189,17 @@
                     <version>3.0.0</version>
                     <configuration>
                         <configLocation>checkstyle.xml</configLocation>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-pmd-plugin</artifactId>
+                    <version>3.13.0</version>
+                    <configuration>
+                        <printFailingErrors>true</printFailingErrors>
+                        <rulesets>
+                            <ruleset>pmd.xml</ruleset>
+                        </rulesets>
                     </configuration>
                 </plugin>
             </plugins>
