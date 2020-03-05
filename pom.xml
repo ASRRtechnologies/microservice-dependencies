@@ -6,7 +6,7 @@
 
     <groupId>nl.asrr.microservice</groupId>
     <artifactId>microservice-dependencies</artifactId>
-    <version>1.0.7</version>
+    <version>1.0.8</version>
     <packaging>pom</packaging>
 
     <name>Microservice Dependencies</name>
@@ -129,7 +129,7 @@
             <dependency>
                 <groupId>de.invesdwin</groupId>
                 <artifactId>invesdwin-instrument</artifactId>
-                <version>1.0.2</version>
+                <version>1.0.7</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -223,7 +223,7 @@
         <repository>
             <id>instrumentation-agent</id>
             <name>Instrumentation Agent</name>
-            <url>http://invesdwin.de/artifactory/invesdwin-oss-remote</url>
+            <url>https://invesdwin.de/artifactory/invesdwin-oss-remote</url>
         </repository>
 
         <repository>
