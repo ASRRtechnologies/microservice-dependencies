@@ -240,15 +240,20 @@
 
     <distributionManagement>
         <repository>
-            <id>nexus-release</id>
-            <name>Release</name>
-            <url>http://nexus.asrr-tech.com:8081/repository/maven-releases/</url>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/ASRRtechnologies/microservice-web-utils</url>
         </repository>
-        <snapshotRepository>
-            <id>nexus-snapshot</id>
-            <name>Snapshot</name>
-            <url>http://nexus.asrr-tech.com:8081/repository/maven-snapshots</url>
-        </snapshotRepository>
+        <!--        <repository>-->
+        <!--            <id>nexus-release</id>-->
+        <!--            <name>Release</name>-->
+        <!--            <url>http://nexus.asrr-tech.com:8081/repository/maven-releases/</url>-->
+        <!--        </repository>-->
+        <!--        <snapshotRepository>-->
+        <!--            <id>nexus-snapshot</id>-->
+        <!--            <name>Snapshot</name>-->
+        <!--            <url>http://nexus.asrr-tech.com:8081/repository/maven-snapshots</url>-->
+        <!--        </snapshotRepository>-->
     </distributionManagement>
 
 </project>
