@@ -6,7 +6,7 @@
 
     <groupId>nl.asrr.microservice</groupId>
     <artifactId>microservice-dependencies</artifactId>
-    <version>1.0.9</version>
+    <version>1.0.10</version>
     <packaging>pom</packaging>
 
     <name>Microservice Dependencies</name>
@@ -142,6 +142,7 @@
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>3.8.0</version>
                     <configuration>
+                        <release>11</release>
                         <annotationProcessorPaths>
                             <path>
                                 <groupId>org.projectlombok</groupId>
