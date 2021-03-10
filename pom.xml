@@ -255,5 +255,4 @@
         <!--            <url>http://nexus.asrr-tech.com:8081/repository/maven-snapshots</url>-->
         <!--        </snapshotRepository>-->
     </distributionManagement>
-
 </project>
