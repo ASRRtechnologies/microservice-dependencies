@@ -242,7 +242,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/ASRRtechnologies/maven-packages/</url>
+            <url>https://maven.pkg.github.com/ASRRtechnologies/microservice-dependencies</url>
         </repository>
         <!--        <repository>-->
         <!--            <id>nexus-release</id>-->
