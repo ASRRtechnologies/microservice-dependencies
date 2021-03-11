@@ -226,16 +226,16 @@
             <url>https://invesdwin.de/artifactory/invesdwin-oss-remote</url>
         </repository>
 
-        <repository>
-            <id>nexus-release</id>
-            <name>Release</name>
-            <url>http://nexus.asrr-tech.com:8081/repository/maven-releases/</url>
-        </repository>
-        <repository>
-            <id>nexus-snapshot</id>
-            <name>Snapshot</name>
-            <url>http://nexus.asrr-tech.com:8081/repository/maven-snapshots</url>
-        </repository>
+<!--        <repository>-->
+<!--            <id>nexus-release</id>-->
+<!--            <name>Release</name>-->
+<!--            <url>http://nexus.asrr-tech.com:8081/repository/maven-releases/</url>-->
+<!--        </repository>-->
+<!--        <repository>-->
+<!--            <id>nexus-snapshot</id>-->
+<!--            <name>Snapshot</name>-->
+<!--            <url>http://nexus.asrr-tech.com:8081/repository/maven-snapshots</url>-->
+<!--        </repository>-->
     </repositories>
 
     <distributionManagement>
